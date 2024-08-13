@@ -1,0 +1,344 @@
+/*fonte do site*/
+.quicksand-uniquifier{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .oswald-uniquifier {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+/*body*/
+body
+{
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a :hover{
+    color: #d84139;
+    transition: 0.5s;
+}
+
+/*header*/
+header{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;  
+}
+.icons-header{
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+/*caixa de pesquisa*/
+.search-box{
+    border: 2px solid grey;
+    height: 25px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+}
+.search-text{
+    background: none;
+    border: 0;
+}
+
+/*Cadastre-se*/
+.txtbtn{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.txtbtn :hover{
+    color: black;
+}
+.btn{
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    background-color: #d84139;
+    border: none;
+    height: 25px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+/*background*/
+.main1{
+    color: white;
+    height: 80vh;
+    width: 100%;
+    background-image: url("header.img/micheal jordan 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt1{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 125px;
+    padding-left: 150px;
+}
+
+/*pag2*/
+.tittlepag2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 25px;
+}
+.prodpag2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+.subprodpag2{
+    background-color: #d9d9d9;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    gap: 15px;
+    width: 500px;
+}
+.txtprodpag2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    align-items: center;
+    padding-top: 35px;
+    text-decoration: none;
+    color: black;
+}
+.txtprodpag2 :hover{
+    color: #d84139;
+    transition: 0.5s;
+}
+.vejamais{
+    font-size: 15px;
+}
+
+/*pag 3*/
+.pag3{
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.prodpag3{
+    padding-left: 50px;
+    gap: 50px;
+}
+.imgp3{
+    height: 500px;
+    width: 500px;
+}
+.div1p3{
+    display: flex;
+    flex-direction: column;
+}
+.subp3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    align-items: center;
+    gap: 15px;
+}
+.ponteiro1{
+    padding: 50px;
+}
+.ponteiro2{
+    padding: 50px;
+}
+
+/*lupa p3*/
+.search-boxp3{
+    border: 2px solid grey;
+    height: 25px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+    padding: px;
+}
+.search-textp3{
+    background: none;
+    border: 0;
+}
+
+/*btnp3*/
+.txtbtnp3{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.txtbtnp3 :hover{
+    color: black;
+}
+.btnp3{
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    background-color: #d84139;
+    border: none;
+    height: 25px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 25px;
+}
+.btn2p3{
+    font-family: "Quicksand", sans-serif;
+    color: black;
+    background-color: #aaaaaa;
+    border: none;
+    height: 25px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.txtp3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.subp3{
+    color: #aaaaaa;
+}
+.iconp3{
+    height: 35px;
+    width: 35px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    font-family: "Quicksand", sans-serif;
+    gap: 100px;
+    justify-content: center;
+    padding: 30px;
+}
+.divfooter{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+#linha{
+    height: 2px;
+    background-color: #aaaaaa;
+    width: 80%;
+    display: flex;
+}
+.linha{
+    display: flex;
+    justify-content: center;
+}
+.iconzap{
+    height: 15px;
+    width: 15px;
+    padding-left: 5px;
+}
+.imgfooter{
+    height: 150px;
+    width: 170px;
+}
+.div2footer{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    gap: 50px;
+}
+/* dropdown */
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    width: 500px;
+  }
+
+.quemsomos{
+    display: flex;
+    flex-direction: row;
+    font-family: "Quicksand", sans-serif;
+    align-items: center;
+    gap: 20px;
+}
+.imgdrop{
+    height: 150px;
+    width: 150px;
+}
+
+/* dropdow cupons */
+.dropdown1 {
+    position: relative;
+  }
+  
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+    width: 300px;
+  }

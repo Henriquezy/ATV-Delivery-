@@ -1,0 +1,144 @@
+/*fonte do site*/
+.quicksand-uniquifier{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .oswald-uniquifier {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.imgcadastro{
+    height: 150px;
+    width: 170px;
+    padding-left: 100px;
+}
+#cadastro{
+    border: solid 2px grey;
+    border-radius: 20px;
+    height: 450px;
+    width: 400px;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tittle{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+.tittle2{
+    font-family: "Quicksand", sans-serif;
+    color: grey;
+    font-size: 15px;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+}
+.btnfacebook{
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    background-color: rgb(71, 71, 175);
+    border: none;
+    height: 25px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 400px;
+    gap: 10px;
+}
+.face{
+    width: 25px;
+    height: 25px;
+}
+.btnGoogle{
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    background-color: white;
+    color: black;
+    border: none;
+    height: 25px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: solid 2px grey;
+    width: 400px;
+    gap: 10px;
+}
+.google{
+    height: 25px;
+    width: 25px;
+}
+.e-mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btncelular{
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    background-color: white;
+    color: black;
+    border: none;
+    height: 25px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 100px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: solid 2px grey;
+}
+.ou{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+.e-mail{
+    gap: 25px;
+}
+.divpracolocaroutradivnomeio{
+    display: flex;
+    justify-content: center;
+}
+.btn1 :hover{
+    border: solid 3px rgb(0, 0, 255);
+}
+.btn2 :hover{
+    border: solid 3px rgb(255, 186, 59);
+}
+.e-mail :hover{
+    border: solid 3px rgb(180, 53, 53);
+}
+
+
+
+
+
+<div class="icons-header">
+<img src="header.img/png-clipart-computer-icons-coupon-free-voucher-angle-text-removebg-preview 3.png" alt="">
+<a href="">
+    <b>Cupons</b>
+</a>  
+</div>
